@@ -22,6 +22,21 @@ class ViewController: UIViewController {
                 self.view.endEditing(true)
         }
         .disposed(by: disposeBag)
+        let demoTextFieldText = Variable("")
+        demoTextField.rx.text.orEmpty
+            .bind(to: demoTextFieldText)
+            .disposed(by: disposeBag)
+        demoTextFieldText.asObservable()
+            .subscribe( { print($0) })
+            .disposed(by: disposeBag)
+        let buttonClicked = PublishSubject<String>()
+        demoButton.rx.tap
+            .map({ "Button Clicked" })
+            .bind(to: buttonClicked)
+            .disposed(by: disposeBag)
+        buttonClicked
+            .subscribe({ print($0.element ?? $0) })
+            .disposed(by: disposeBag)
     }
 
     override func didReceiveMemoryWarning() {
