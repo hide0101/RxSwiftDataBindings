@@ -10,6 +10,10 @@
 		95EF09FEDDD669481912033B /* Pods_RxSwiftDataBindingsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B1EE0218D8B0E89D6E50EE /* Pods_RxSwiftDataBindingsUITests.framework */; };
 		CC7C299F99110256761C62DC /* Pods_RxSwiftDataBindings.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B08109A9EA8266219BF2E56 /* Pods_RxSwiftDataBindings.framework */; };
 		DB77D2F429C5B3AA1797EBAD /* Pods_RxSwiftDataBindingsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FC34BCF9F861AFE7ABF86FF /* Pods_RxSwiftDataBindingsTests.framework */; };
+		F107376020C3C5230063A78D /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F107376120C3C5230063A78D /* RxSwift.framework */; };
+		F107376220C3C5280063A78D /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F107376320C3C5280063A78D /* RxCocoa.framework */; };
+		F107376420C3C5650063A78D /* Pods_RxSwiftDataBindingsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F107376520C3C5650063A78D /* Pods_RxSwiftDataBindingsTests.framework */; };
+		F107376620C3C56A0063A78D /* Pods_RxSwiftDataBindingsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F107376720C3C56A0063A78D /* Pods_RxSwiftDataBindingsUITests.framework */; };
 		F14C356120C3BE4D00C9D46B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14C356020C3BE4D00C9D46B /* AppDelegate.swift */; };
 		F14C356320C3BE4D00C9D46B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14C356220C3BE4D00C9D46B /* ViewController.swift */; };
 		F14C356620C3BE4D00C9D46B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F14C356420C3BE4D00C9D46B /* Main.storyboard */; };
@@ -46,6 +50,10 @@
 		6447921DFB67E4825E7C2BAC /* Pods-RxSwiftDataBindings.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftDataBindings.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftDataBindings/Pods-RxSwiftDataBindings.release.xcconfig"; sourceTree = "<group>"; };
 		A8AD26F312A245DAB0628D08 /* Pods-RxSwiftDataBindingsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftDataBindingsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftDataBindingsTests/Pods-RxSwiftDataBindingsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D3D187CE9308ACE6484CF467 /* Pods-RxSwiftDataBindingsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftDataBindingsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftDataBindingsUITests/Pods-RxSwiftDataBindingsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F107376120C3C5230063A78D /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F107376320C3C5280063A78D /* RxCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F107376520C3C5650063A78D /* Pods_RxSwiftDataBindingsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_RxSwiftDataBindingsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F107376720C3C56A0063A78D /* Pods_RxSwiftDataBindingsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_RxSwiftDataBindingsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F14C355D20C3BE4D00C9D46B /* RxSwiftDataBindings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftDataBindings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F14C356020C3BE4D00C9D46B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F14C356220C3BE4D00C9D46B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +74,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F107376620C3C56A0063A78D /* Pods_RxSwiftDataBindingsUITests.framework in Frameworks */,
+				F107376420C3C5650063A78D /* Pods_RxSwiftDataBindingsTests.framework in Frameworks */,
+				F107376220C3C5280063A78D /* RxCocoa.framework in Frameworks */,
+				F107376020C3C5230063A78D /* RxSwift.framework in Frameworks */,
 				CC7C299F99110256761C62DC /* Pods_RxSwiftDataBindings.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -92,6 +104,10 @@
 		850EF2E9C883DFF4E8EECC49 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F107376720C3C56A0063A78D /* Pods_RxSwiftDataBindingsUITests.framework */,
+				F107376520C3C5650063A78D /* Pods_RxSwiftDataBindingsTests.framework */,
+				F107376320C3C5280063A78D /* RxCocoa.framework */,
+				F107376120C3C5230063A78D /* RxSwift.framework */,
 				3B08109A9EA8266219BF2E56 /* Pods_RxSwiftDataBindings.framework */,
 				2FC34BCF9F861AFE7ABF86FF /* Pods_RxSwiftDataBindingsTests.framework */,
 				00B1EE0218D8B0E89D6E50EE /* Pods_RxSwiftDataBindingsUITests.framework */,
