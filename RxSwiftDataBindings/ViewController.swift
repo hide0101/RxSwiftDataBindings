@@ -17,7 +17,11 @@ class ViewController: UIViewController {
     let disposeBag = DisposeBag()
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        demoTapGestureRecognizer.rx.event
+            .bind { [unowned self] _ in
+                self.view.endEditing(true)
+        }
+        .disposed(by: disposeBag)
     }
 
     override func didReceiveMemoryWarning() {
