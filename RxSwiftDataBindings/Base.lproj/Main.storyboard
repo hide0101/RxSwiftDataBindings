@@ -53,6 +53,11 @@
                             <outletCollection property="gestureRecognizers" destination="4YE-ec-EBe" appends="YES" id="kPp-Zi-02p"/>
                         </connections>
                     </view>
+                    <connections>
+                        <outlet property="demoButton" destination="bIA-lq-eyc" id="a82-Px-eaw"/>
+                        <outlet property="demoTapGestureRecognizer" destination="4YE-ec-EBe" id="0N5-Ve-KdY"/>
+                        <outlet property="demoTextField" destination="e1O-b2-X84" id="usf-gD-iqg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="4YE-ec-EBe"/>

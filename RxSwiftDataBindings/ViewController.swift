@@ -11,7 +11,10 @@ import RxSwift
 import RxCocoa
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var demoTapGestureRecognizer: UITapGestureRecognizer!
+    @IBOutlet weak var demoTextField: UITextField!
+    @IBOutlet weak var demoButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
