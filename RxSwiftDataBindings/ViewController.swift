@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var demoTapGestureRecognizer: UITapGestureRecognizer!
     @IBOutlet weak var demoTextField: UITextField!
     @IBOutlet weak var demoButton: UIButton!
-    
+    let disposeBag = DisposeBag()
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
